@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package test.ktp;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author dzuhanurakbar
+ */
+public class Ktp {
+
+    public static void main(String[] args) {
+        //input
+        Scanner in= new Scanner(System.in);
+        String nik, nama, alamat;
+        int umur;
+        
+        //proses
+        System.out.println("Masukkan nik :");
+        nik = in.next();
+        System.out.println("Masukkan nama :");
+        nama = in.next();
+        System.out.println("Masukkan alamat :");
+        alamat= in.next();
+        System.out.println("Masukkan umur :");
+        umur = in.nextInt();
+        
+        //output
+        System.out.println("nik :"+nik+"\n"+"nama: "+nama+"\n"+"alamat :"+alamat+"\n"+"umur: "+umur+"\n");
+        
+        
+
+    }
+}
