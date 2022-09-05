@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author dzuhanurakbar
+ */
+public class operator {
+    public static void main(String[] args) {
+        int mawar=21, melati=3, matahari=5;
+        double harga;
+        harga = 4500.5;
+        double total, bayar;
+        
+        /*operator penugasan*/
+      
+        /* Operator Aritmatika */
+        total=mawar+melati+matahari;
+        bayar=total*harga;
+        
+        System.out.println("jumlah barang yang dibeli = "+mawar+"+"+melati+"+"+matahari+"="+total);
+        System.out.println("total yang dibayar  = Rp"+bayar); 
+        
+        
+    }
+    
+}
