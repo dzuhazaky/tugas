@@ -1,0 +1,62 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package test.studikasus;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author dzuhanurakbar
+ */
+public class tugas {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int pilih;
+
+        System.out.println("Gorengan");
+        System.out.println("1.Tempe");
+        System.out.println("2.Tahu isi");
+        System.out.println("3.Molen");
+        System.out.println("Masukan Pilihan Gorengan :");
+
+        pilih = input.nextInt();
+
+        if (pilih == 1) {
+            System.out.println("Harga Tempe Rp.500");
+        } else if (pilih == 2) {
+            System.out.println("Harga Tahu isi Rp.750");
+        } else if (pilih == 3) {
+            System.out.println("Harga Molen Rp.1000");
+        } else {
+            System.out.println("Tidak ada dipilihan");
+        }
+        for (int i = 1; i > 0; i--) {
+            for (int j = 1; j > 0; j++) {
+
+                System.out.println("Apakah sudah yakin?");
+                System.out.println("1.Ya");
+                System.out.println("2.Tidak");
+                System.out.println("Pilih :");
+                pilih = input.nextInt();
+                if (pilih == 1) {
+                    System.out.println("Selamat Menikmati");
+                } else if (pilih == 2) {
+                    System.out.println("Masukan pilihan anda :");
+                }
+                pilih = input.nextInt();
+                if (pilih == 1) {
+                    System.out.println("Harga Tempe Rp.500");
+                } else if (pilih == 2) {
+                    System.out.println("Harga Tahu isi Rp.500");
+                } else if (pilih == 3) {
+                    System.out.println("Harga Molen Rp.1000");
+                } else {
+                    System.out.println("Tidak ada di menu");
+                }
+
+            }
+        }
+    }
+}
