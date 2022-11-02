@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class TugasBMI {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int gender;
+        float tb, bb, bmi, meter;
+        double rumus;
+        System.out.println("====================");
+        System.out.println("Masukkan gender : \n1.Laki-laki \n2.Perempuan");
+        gender = in.nextInt();
+        System.out.println("Masukkan tinggi badan : ");
+        tb = in.nextFloat();
+        System.out.println("Masukkan berat badan : ");
+        bb = in.nextFloat();
+
+        meter = tb / 100;
+
+        bmi = (bb / (meter * meter));
+        System.out.println("====================");
+        System.out.println(bmi + "BMI : ");
+
+        if (bmi < 18.5) {
+            System.out.println(" Kurus ");
+        } else if (bmi <= 24.9) {
+            System.out.println(" Normal ");
+        } else if (bmi <= 29.9) {
+            System.out.println(" Overweight ");
+        } else {
+            System.out.println("(Obesitas)");
+        }
+
+    }
+}
